@@ -32,6 +32,4 @@ For inquiries, please reach out at [contact@stux.group](mailto:contact@stux.grou
 
 Thank you for visiting our profile! Together, we can make a significant impact in the tech community.
 
----
-
 *Stux.Group is the parent of the Stux.Group Brand of Companies, including [Stux.Cloud](https://github.com/StuxCloud) and [Stuxedo](https://github.com/Stuxedo).*
