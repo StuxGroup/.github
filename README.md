@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.stux.group/global/logo.png" width="200" alt="Stux.Group Logo">
+  <img src="https://media.stux.group/global/logo.png" height="100" alt="Stux.Group Logo">
 </p>
 
 # Stux.Group GitHub Configuration
