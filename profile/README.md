@@ -4,6 +4,8 @@
 
 ## Welcome to the Stux.Group Official GitHub!
 
+### *Innovating Today, Building Tomorrow*
+
 We are dedicated to delivering exceptional services and solutions. Here’s how you can connect with us and support our mission!
 
 ### Connect with Us!
@@ -29,3 +31,7 @@ For inquiries, please reach out at [contact@stux.group](mailto:contact@stux.grou
 ---
 
 Thank you for visiting our profile! Together, we can make a significant impact in the tech community.
+
+---
+
+*Stux.Group is the parent of the Stux.Group Brand of Companies, including [Stux.Cloud](https://github.com/StuxCloud) and [Stuxedo](https://github.com/Stuxedo).*
