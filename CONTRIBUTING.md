@@ -47,3 +47,5 @@ If you have any questions, feel free to reach out at [contact@stux.group](mailto
 ---
 
 We appreciate every contribution, no matter how small. Thank you for helping make Stux.Group better!
+
+*Stux.Group is the parent of the Stux.Group Brand of Companies, including [Stux.Cloud](https://github.com/StuxCloud) and [Stuxedo](https://github.com/Stuxedo).*
