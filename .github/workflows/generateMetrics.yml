@@ -31,7 +31,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: gh-metrics/metrics@master
+      - uses: gh-metrics/metrics@727b269a0e1af233e88b535a7555bb736e54b4b2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
@@ -52,7 +52,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: gh-metrics/metrics@master
+      - uses: gh-metrics/metrics@727b269a0e1af233e88b535a7555bb736e54b4b2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
@@ -77,7 +77,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: gh-metrics/metrics@master
+      - uses: gh-metrics/metrics@727b269a0e1af233e88b535a7555bb736e54b4b2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
