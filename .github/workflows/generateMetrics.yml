@@ -28,6 +28,8 @@ jobs:
   stats:
     needs: setup
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: gh-metrics/metrics@master
         with:
@@ -38,7 +40,7 @@ jobs:
 
           user: StuxGroup
           template: classic
-          base: header, activity, community
+          base: header, activity, community, repositories
           config_timezone: Europe/London
           config_output: svg
           config_padding: 0, 30
@@ -47,6 +49,8 @@ jobs:
   notable_simple:
     needs: setup
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: gh-metrics/metrics@master
         with:
@@ -70,6 +74,8 @@ jobs:
   notable_indepth:
     needs: setup
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: gh-metrics/metrics@master
         with:
