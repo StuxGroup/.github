@@ -28,8 +28,20 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 
 For inquiries, please reach out at [contact@stux.group](mailto:contact@stux.group). We’d love to hear from you!
 
+### Our Activity
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/StuxGroup/.github/snake/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/StuxGroup/.github/snake/snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/StuxGroup/.github/snake/snake.svg" />
+  </picture>
+  <br>
+  <img width="512" src="https://raw.githubusercontent.com/StuxGroup/.github/metrics/stats.svg">
+</div>
+
 ---
 
 Thank you for visiting our profile! Together, we can make a significant impact in the tech community.
 
-*Stux.Group is the parent of the Stux.Group Brand of Companies, including [Stux.Cloud](https://github.com/StuxCloud) and [Stuxedo](https://github.com/Stuxedo).*
+*Stux.Group is the parent of the Stux.Group Brand of Companies, including [Stux.Cloud](https://github.com/StuxCloud), [Stuxedo](https://github.com/Stuxedo) and [StuxAPIs](https://github.com/StuxAPIs).*
