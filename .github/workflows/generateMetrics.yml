@@ -1,37 +1,41 @@
 # GitHub Action for generating metrics
 name: Generate Metrics
 
-# Controls when the action will run. This action runs every 6 hours.
 on:
-  # This command allows us to run the Action automatically from the Actions tab.
   workflow_dispatch:
-  # Push to main branch
   push:
     branches:
       - main
-  # Run every day
   schedule:
     - cron: "0 0 * * *"
 
-# The sequence of runs in this workflow:
 jobs:
-  # This workflow contains a job called "stats"
-  stats:
-    # The type of runner that the job will run on
+  setup:
     runs-on: ubuntu-latest
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    permissions:
+      contents: write
     steps:
-      # Generates the metrics
+      - name: Ensure metrics branch exists
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/git/refs/heads/metrics" --silent 2>/dev/null || \
+          gh api "repos/$GITHUB_REPOSITORY/git/refs" \
+            --method POST \
+            -f ref="refs/heads/metrics" \
+            -f sha="$(gh api "repos/$GITHUB_REPOSITORY/git/refs/heads/main" --jq '.object.sha')"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  stats:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
       - uses: stalomeow/metrics@projects-v2
         with:
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: metrics
           committer_message: "build: update `stats`"
 
-          # Options
           user: StuxGroup
           template: classic
           base: header, activity, community
@@ -40,23 +44,17 @@ jobs:
           config_padding: 0, 30
           filename: stats.svg
 
-  # This workflow contains a job called "notable_simple"
   notable_simple:
-    # The type of runner that the job will run on
+    needs: setup
     runs-on: ubuntu-latest
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Generates the metrics
       - uses: stalomeow/metrics@projects-v2
         with:
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: metrics
           committer_message: "build: update `notable_simple`"
 
-          # Options
           user: StuxGroup
           template: classic
           base: ""
@@ -66,27 +64,20 @@ jobs:
           config_padding: 0, 30
           filename: notable_simple.svg
 
-          # Notable contributions
           plugin_notable: yes
           plugin_notable_filter: stars:>25
 
-  # This workflow contains a job called "notable_indepth"
   notable_indepth:
-    # The type of runner that the job will run on
+    needs: setup
     runs-on: ubuntu-latest
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Generates the metrics
       - uses: stalomeow/metrics@projects-v2
         with:
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: metrics
           committer_message: "build: update `notable_indepth`"
 
-          # Options
           user: StuxGroup
           template: classic
           base: ""
@@ -96,7 +87,6 @@ jobs:
           config_padding: 0, 30
           filename: notable_indepth.svg
 
-          # Notable contributions
           plugin_notable: yes
           plugin_notable_filter: stars:>25
           plugin_notable_indepth: yes

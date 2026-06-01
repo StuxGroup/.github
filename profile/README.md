@@ -31,12 +31,6 @@ For inquiries, please reach out at [contact@stux.group](mailto:contact@stux.grou
 ### Our Activity
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/StuxGroup/.github/snake/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/StuxGroup/.github/snake/snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/StuxGroup/.github/snake/snake.svg" />
-  </picture>
-  <br>
   <img width="512" src="https://raw.githubusercontent.com/StuxGroup/.github/metrics/stats.svg">
 </div>
 
