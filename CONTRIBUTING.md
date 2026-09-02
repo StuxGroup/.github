@@ -42,7 +42,7 @@ By participating in any Stux.Group project, you agree to uphold our community st
 
 ## Questions
 
-If you have any questions, feel free to reach out at [contact@stux.group](mailto:contact@stux.group) or open a discussion in the relevant repository.
+If you have any questions, feel free to reach out at [hello@stux.group](mailto:hello@stux.group) or open a discussion in the relevant repository. For legal, privacy, or copyright inquiries, contact [legal@stux.group](mailto:legal@stux.group) instead.
 
 ---
 
