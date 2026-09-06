@@ -31,7 +31,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: gh-metrics/metrics@727b269a0e1af233e88b535a7555bb736e54b4b2
+      - uses: gh-metrics/metrics@4bec7bde733c1dd3c5139ce2146d94a34ae62096
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
