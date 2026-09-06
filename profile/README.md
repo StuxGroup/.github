@@ -26,7 +26,8 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 
 ### Contact Us
 
-For inquiries, please reach out at [hello@stux.group](mailto:hello@stux.group). We’d love to hear from you! For legal, privacy, or copyright matters, contact [legal@stux.group](mailto:legal@stux.group) instead.
+For inquiries, please reach out at [hello@stux.group](mailto:hello@stux.group). We’d love to hear from you!  
+For legal, privacy, or copyright matters, contact [legal@stux.group](mailto:legal@stux.group) instead.
 
 ### Our Activity
 
