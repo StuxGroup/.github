@@ -15,13 +15,28 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Ensure metrics branch exists
+      - name: Ensure metrics branch exists (as an orphan, not branched from main)
         run: |
-          gh api "repos/$GITHUB_REPOSITORY/git/refs/heads/metrics" --silent 2>/dev/null || \
+          if gh api "repos/$GITHUB_REPOSITORY/git/refs/heads/metrics" --silent 2>/dev/null; then
+            echo "metrics branch already exists - skipping."
+            exit 0
+          fi
+
+          # 4b825dc6... is git's well-known empty-tree hash - it exists in every
+          # repo, so a commit pointing at it needs no checkout to create. Not
+          # passing -f parents means the commit has none, making it a true root
+          # commit: the branch starts empty, sharing no history/files with main.
+          EMPTY_TREE="4b825dc642cb6eb9a060e54bf8d69288fbee4904"
+          COMMIT_SHA="$(gh api "repos/$GITHUB_REPOSITORY/git/commits" \
+            --method POST \
+            -f message="Initialize metrics branch" \
+            -f tree="$EMPTY_TREE" \
+            --jq '.sha')"
+
           gh api "repos/$GITHUB_REPOSITORY/git/refs" \
             --method POST \
             -f ref="refs/heads/metrics" \
-            -f sha="$(gh api "repos/$GITHUB_REPOSITORY/git/refs/heads/main" --jq '.object.sha')"
+            -f sha="$COMMIT_SHA"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
