@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v0.2.0
+
+### Added
+- "Our Projects" table in `profile/README.md`, linking out to Stuxs.Tools, Downl.one, the Stux.Group website, and Gaymer.Social (noted as discontinued as of September 2026)
+
 ## v0.1.1
 
 ### Changed

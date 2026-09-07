@@ -18,9 +18,18 @@ We are dedicated to delivering exceptional services and solutions. Here’s how 
 
 Stux.Group aims to innovate and create lasting solutions for our clients. Join us on this exciting journey!
 
+### Our Projects
+
+| Project | What it is |
+|---|---|
+| 🛠️ [Stuxs.Tools](https://stuxs.tools) | Free web tools — network diagnostics, image processing, converters, calculators and more. No ads, no tracking, no nonsense. |
+| 📥 [Downl.one](https://downl.one) | Media downloader — paste a link, get video or audio back. No ads, no signup, nothing kept after the download completes. |
+| 🌐 [Stux.Group](https://stux.group) | Our main website. |
+| 🏳️‍🌈 [Gaymer.Social](https://gaymer.social) | Formerly our Mastodon instances for LGBTQ+ gaymers (Gaymer.Social and Gaymer.Coffee) — discontinued in September 2026. |
+
 ### Get Involved
 
-1. **Explore our projects**: Check out our repository to see what we're working on.
+1. **Explore our projects**: See the table above, or check out our repositories to see what we're working on.
 2. **Follow us on social media**: Stay updated on our latest news and updates.
 3. **Join our community**: Contribute to discussions, suggest improvements, and collaborate with us!
 
