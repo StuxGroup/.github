@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.stux.group/global/logo.png" height="100" alt="Logo">
+  <img src="https://global.media.stux.group/global/logo.png" height="100" alt="Logo">
 </p>
 
 ## Welcome to the Stux.Group Official GitHub!
@@ -48,4 +48,4 @@ For legal, privacy, or copyright matters, contact [legal@stux.group](mailto:lega
 
 Thank you for visiting our profile! Together, we can make a significant impact in the tech community.
 
-*Stux.Group is the parent of the Stux.Group Brand of Companies, including [Stux.Cloud](https://github.com/StuxCloud), [Stuxedo](https://github.com/Stuxedo) and [StuxAPIs](https://github.com/StuxAPIs).*
+*Stux.Group is the parent of the <img src="https://global.media.stux.group/global/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group Brand of Companies.*
