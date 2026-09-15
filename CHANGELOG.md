@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.0.2
+
+### Fixed
+- `README.md` and `profile/README.md`'s Stux.Group logo/icon URLs had a leftover duplicated `/global/` path segment (`global.media.stux.group/global/logo.png` and `/icon.png`) — corrected to `https://global.media.stux.group/logo.png` and `/icon.png`
+
 ## v1.0.1
 
 ### Fixed
