@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.0.6
+
+### Changed
+- "Our Activity" grid's Ream.st subtitle changed from "Multi Stream Viewer Provider" to Ream.st's actual slogan, "One Viewer, One Provider, Multiple Streams!"
+
 ## v1.0.5
 
 ### Added
