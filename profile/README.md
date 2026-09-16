@@ -48,3 +48,5 @@ For legal, privacy, or copyright matters, contact [legal@stux.group](mailto:lega
 Thank you for visiting our profile! Together, we can make a significant impact in the tech community.
 
 *Stux.Group is the parent of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group Brand of Companies.*
+
+"Stux.Group" is the trading name of **Stux Group Ltd**, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE.

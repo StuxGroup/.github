@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.0.4
+
+### Added
+- `profile/README.md` now states that "Stux.Group" is the trading name of Stux Group Ltd, with full company registration details.
+
 ## v1.0.3
 
 ### Fixed
