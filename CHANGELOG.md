@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.0.5
+
+### Added
+- `profile/README.md`'s "Our Activity" section expanded from a single Stux.Group-only widget into a grid with every Stux.Group brand's own activity metrics: Stux.Group, Stux.Dev, StuxAPIs, Stuxedo, Stux.Cloud, Stux.Music, Ream.st, and Gaymer.Social.
+
 ## v1.0.4
 
 ### Added
