@@ -23,8 +23,8 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 | Service | What it is |
 |---|---|
 | 🌐 [Stux.Group](https://stux.group) | Our main website. |
-| 📺 [Ream.st](https://ream.st) | Free multi-view stream viewers for Twitch and YouTube — watch multiple streams at once, no accounts or trackers. |
-| 🏳️‍🌈 [Gaymer.Social](https://gaymer.social) | Formerly our Mastodon instances for LGBTQ+ gaymers (Gaymer.Social and Gaymer.Coffee) — discontinued in September 2026. |
+| 📺 [Ream.st](https://ream.st) | Free multi-view stream viewers for Twitch & YouTube. |
+| 🏳️‍🌈 [Gaymer.Social](https://gaymer.social) | Discontinued LGBTQ+ Mastodon instances (Sept 2026). |
 
 ### Get Involved
 

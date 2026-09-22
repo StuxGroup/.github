@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.0.7
+
+### Fixed
+- "Our Services" table's "What it is" column was rendering badly unbalanced — the Gaymer.Social row's description was much longer than the others, stretching the column. Shortened the Ream.st and Gaymer.Social descriptions so all three rows are comparable lengths.
+
 ## v1.0.6
 
 ### Changed
