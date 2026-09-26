@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.0.8
+
+### Changed
+- CHANGELOG sections reordered to Added, Changed, Fixed, Removed, Security, Deprecated
+
 ## v1.0.7
 
 ### Fixed
@@ -24,10 +29,11 @@ All notable changes to Stux.Group's `.github` organization repository are docume
 
 ## v1.0.3
 
-### Fixed
-- `profile/README.md`'s "Our Projects" table still listed Stuxs.Tools and Downl.one as direct Stux.Group projects — they're now operated by Stux.Dev, not Stux.Group directly, so they were removed from this table.
 ### Changed
 - Renamed "Our Projects" to "Our Services" (Stuxs.Tools/Downl.one weren't the only stale entries — this table is for direct Stux Group Ltd services, not every brand under the group), and added Ream.st, which was missing.
+
+### Fixed
+- `profile/README.md`'s "Our Projects" table still listed Stuxs.Tools and Downl.one as direct Stux.Group projects — they're now operated by Stux.Dev, not Stux.Group directly, so they were removed from this table.
 
 ## v1.0.2
 
