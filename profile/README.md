@@ -32,7 +32,9 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 | 📈 [GitHup](https://githup.stux.group) | Uptime monitoring & status pages, run on GitHub. |
 | 🏳️‍🌈 [Gaymer.Social](https://gaymer.social) | Discontinued LGBTQ+ Mastodon instances (Sept 2026). |
 
-**Service status:** [![Stux.Group status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxGroup%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stux.group) See [status.stux.group](https://status.stux.group) for every service's live status and uptime history.
+**Service status:**  
+[![Stux.Group status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxGroup%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stux.group)  
+See [status.stux.group](https://status.stux.group) for every service's live status and uptime history.
 
 ### Get Involved
 
