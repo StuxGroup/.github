@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.0.9
+
+### Added
+- GitHup added to the "Our Services" table in `profile/README.md`, linking to its website, [githup.stux.group](https://githup.stux.group)
+
 ## v1.0.8
 
 ### Changed

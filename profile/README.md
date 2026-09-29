@@ -24,6 +24,7 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 |---|---|
 | 🌐 [Stux.Group](https://stux.group) | Our main website. |
 | 📺 [Ream.st](https://ream.st) | Free multi-view stream viewers for Twitch & YouTube. |
+| 📈 [GitHup](https://githup.stux.group) | Uptime monitoring & status pages, run on GitHub. |
 | 🏳️‍🌈 [Gaymer.Social](https://gaymer.social) | Discontinued LGBTQ+ Mastodon instances (Sept 2026). |
 
 ### Get Involved
