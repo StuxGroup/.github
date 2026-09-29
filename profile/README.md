@@ -23,9 +23,16 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 | Service | What it is |
 |---|---|
 | 🌐 [Stux.Group](https://stux.group) | Our main website. |
-| 📺 [Ream.st](https://ream.st) | Free multi-view stream viewers for Twitch & YouTube. |
+| 🧭 [Stux.Group Services](https://services.stux.group) | Every Stux.Group service, in one place. |
+| 🟢 [Status](https://status.stux.group) | Live status of Stux.Group's services. |
+| 🛠️ [Stux.Dev](https://stux.dev) | The tools we wished existed. |
+| ☁️ [Stuxedo](https://stuxedo.com) | Hosting & cloud, the greener option. |
+| 🎵 [Stux.Music](https://stux.music) | Independent music, done right. |
+| 📺 [Ream.st](https://ream.st) | Multi-view stream viewers for [Twitch](https://twitch.multi.st) & [YouTube](https://youtube.multi.st). |
 | 📈 [GitHup](https://githup.stux.group) | Uptime monitoring & status pages, run on GitHub. |
 | 🏳️‍🌈 [Gaymer.Social](https://gaymer.social) | Discontinued LGBTQ+ Mastodon instances (Sept 2026). |
+
+**Service status:** [![Stux.Group status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxGroup%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stux.group) See [status.stux.group](https://status.stux.group) for every service's live status and uptime history.
 
 ### Get Involved
 

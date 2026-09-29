@@ -2,6 +2,16 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.1.0
+
+### Added
+- A live **Service status** badge in `profile/README.md`, read from the new [status.stux.group](https://status.stux.group) (`StuxGroup/Status`), with a link to the status page
+- More services in the "Our Services" table: Stux.Group Services, Status, Stux.Dev, Stuxedo and Stux.Music; the Ream.st row now links to Multi.st Twitch and YouTube
+
+### Changed
+- `generateMetrics.yml`'s three `gh-metrics/metrics` steps now all pin the same, latest commit (`b594ca3`), replacing two older pins (one 26 commits behind)
+- `README.md` rewritten to describe what this repository actually contains (the profile, the default `CONTRIBUTING.md`, the metrics workflow and the release scripts), replacing a generic description of issue templates, a code of conduct and a security policy that don't exist here
+
 ## v1.0.9
 
 ### Added
