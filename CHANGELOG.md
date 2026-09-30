@@ -2,6 +2,15 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.2.0
+
+### Added
+- A **Service Status** section in `profile/README.md` with a live status table (each service's group, status, uptime and response time, linking to [status.stux.group](https://status.stux.group)), kept up to date hourly by the new `.github/workflows/status.yml` using GitHup's `readme` mode and the data in `StuxGroup/Status`
+
+### Changed
+- The "Our Services" table is split in two: **Our Services** (Stux.Group, Stux.Group Services, Status, GitHup, Multi.st Twitch and Multi.st YouTube) and a new **Our Brands** (Stux.Dev, Stuxedo, Stux.Music, Ream.st and Gaymer.Social)
+- The status badge moved from a one-line "Service status" note into the new **Service Status** section
+
 ## v1.1.0
 
 ### Added

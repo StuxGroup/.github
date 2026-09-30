@@ -25,20 +25,48 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 | 🌐 [Stux.Group](https://stux.group) | Our main website. |
 | 🧭 [Stux.Group Services](https://services.stux.group) | Every Stux.Group service, in one place. |
 | 🟢 [Status](https://status.stux.group) | Live status of Stux.Group's services. |
+| 📈 [GitHup](https://githup.stux.group) | Uptime monitoring & status pages, run on GitHub. |
+| 📺 [Multi.st Twitch](https://twitch.multi.st) | Watch several Twitch streams at once, from Ream.st. |
+| 📺 [Multi.st YouTube](https://youtube.multi.st) | Watch several YouTube streams at once, from Ream.st. |
+
+### Our Brands
+
+| Brand | What it is |
+|---|---|
 | 🛠️ [Stux.Dev](https://stux.dev) | The tools we wished existed. |
 | ☁️ [Stuxedo](https://stuxedo.com) | Hosting & cloud, the greener option. |
 | 🎵 [Stux.Music](https://stux.music) | Independent music, done right. |
 | 📺 [Ream.st](https://ream.st) | Multi-view stream viewers for [Twitch](https://twitch.multi.st) & [YouTube](https://youtube.multi.st). |
-| 📈 [GitHup](https://githup.stux.group) | Uptime monitoring & status pages, run on GitHub. |
 | 🏳️‍🌈 [Gaymer.Social](https://gaymer.social) | Discontinued LGBTQ+ Mastodon instances (Sept 2026). |
 
-**Service status:**  
-[![Stux.Group status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxGroup%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stux.group)  
-See [status.stux.group](https://status.stux.group) for every service's live status and uptime history.
+### Service Status
+
+[![Stux.Group status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxGroup%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stux.group)
+
+See [status.stux.group](https://status.stux.group) for every service's live status and uptime history. The table below is refreshed hourly by [GitHup](https://githup.stux.group).
+
+<!-- githup:start -->
+<!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
+
+**All systems operational** · [Live status page](https://status.stux.group/)
+
+| Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
+| ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
+| Stux.Group | [Stux.Group](https://stux.group/) | Up | 100.00% | 100.00% | 100.00% | 408 ms |
+| Stux.Group | [Stux.Group Services](https://services.stux.group/) | Up | 100.00% | 100.00% | 100.00% | 445 ms |
+| Stux.Group | [Stux.Group Media CDN](https://global.media.stux.group/icon.png) | Up | 100.00% | 100.00% | 100.00% | 712 ms |
+| Brands | [Stux.Dev](https://stux.dev/) | Up | 100.00% | 100.00% | 100.00% | 478 ms |
+| Brands | [Stuxedo](https://stuxedo.com/) | Up | 100.00% | 100.00% | 100.00% | 723 ms |
+| Brands | [Stux.Music](https://stux.music/) | Up | 100.00% | 100.00% | 100.00% | 634 ms |
+| Brands | [GitHup](https://githup.stux.group/) | Up | 100.00% | 100.00% | 100.00% | 245 ms |
+| Streaming | [Ream.st](https://ream.st/) | Up | 100.00% | 100.00% | 100.00% | 475 ms |
+| Streaming | [Multi.st Twitch](https://twitch.multi.st/) | Up | 100.00% | 100.00% | 100.00% | 1130 ms |
+| Streaming | [Multi.st YouTube](https://youtube.multi.st/) | Up | 100.00% | 100.00% | 100.00% | 1052 ms |
+<!-- githup:end -->
 
 ### Get Involved
 
-1. **Explore our services**: See the table above, or check out our repositories to see what we're working on.
+1. **Explore our services and brands**: See the tables above, or check out our repositories to see what we're working on.
 2. **Follow us on social media**: Stay updated on our latest news and updates.
 3. **Join our community**: Contribute to discussions, suggest improvements, and collaborate with us!
 

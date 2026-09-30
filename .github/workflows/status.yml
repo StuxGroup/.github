@@ -1,0 +1,40 @@
+# Keeps the "Service Status" table in profile/README.md up to date with GitHup's readme mode,
+# read from the monitoring data in StuxGroup/Status (https://status.stux.group).
+name: Service status
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"   # hourly, off the hour
+  push:
+    branches: [main]
+    paths:
+      - profile/README.md
+      - .github/workflows/status.yml
+
+permissions:
+  contents: write   # commit the updated table
+
+concurrency:
+  group: status-table
+  cancel-in-progress: false
+
+jobs:
+  table:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check out the status data
+        uses: actions/checkout@v7
+        with:
+          repository: StuxGroup/Status
+          path: .status
+      - name: Update the status table
+        uses: StuxGroup/GitHup@v1
+        with:
+          mode: readme
+          config: .status/.githup.yml
+          data-dir: .status/data
+          readme: profile/README.md
+          site-url: https://status.stux.group/

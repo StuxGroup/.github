@@ -17,9 +17,10 @@ doesn't have its own.
 
 | Path | What it does |
 | ---- | ------------ |
-| [`profile/README.md`](profile/README.md) | The organization profile: who we are, the **Our Services** table with a live [status](https://status.stux.group) badge, contact details and the **Our Activity** grid for every Stux.Group brand |
+| [`profile/README.md`](profile/README.md) | The organization profile: who we are, the **Our Services** and **Our Brands** tables, the **Service Status** badge and table, contact details and the **Our Activity** grid for every Stux.Group brand |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | The default contributing guide for StuxGroup repositories |
 | [`.github/workflows/generateMetrics.yml`](.github/workflows/generateMetrics.yml) | Builds the organization's activity metrics with [gh-metrics](https://github.com/gh-metrics/metrics) daily and on every push to `main`, and commits the SVGs to the orphan `metrics` branch |
+| [`.github/workflows/status.yml`](.github/workflows/status.yml) | Hourly, checks out [StuxGroup/Status](https://github.com/StuxGroup/Status) and runs [GitHup](https://githup.stux.group)'s `readme` mode to refresh the **Service Status** table in the profile |
 | `CHANGELOG.md`, `VERSION.md`, `commit.sh`, `commit.bat` | Release history and the scripts that commit and tag each release |
 
 ## Metrics
@@ -31,6 +32,13 @@ into it. The profile shows `stats.svg` from
 `.github` repository publishes its own the same way. The workflow needs a `METRICS_TOKEN`
 secret (a token that can read the organization's data); `gh-metrics/metrics` is pinned to a
 commit SHA.
+
+## Service status
+
+`status.yml` reads the monitoring data and `.githup.yml` straight from the public
+`StuxGroup/Status` repository and rewrites the table between the `<!-- githup:start -->` and
+`<!-- githup:end -->` markers in `profile/README.md`, committing as `github-actions[bot]` only
+when something changed. Don't edit inside the markers. It needs no secrets.
 
 ## Releasing
 
