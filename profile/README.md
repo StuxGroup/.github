@@ -35,7 +35,12 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 |---|---|
 | 🛠️ [Stux.Dev](https://stux.dev) | The tools we wished existed. |
 | ☁️ [Stuxedo](https://stuxedo.com) | Hosting & cloud, the greener option. |
+| 🏗️ [Stux.Cloud](https://stux.cloud) | The infrastructure underneath it all, quietly & securely. |
+| 🔌 [StuxAPIs](https://stuxapis.net) | The APIs and libraries powering the Stux.Group ecosystem. |
 | 🎵 [Stux.Music](https://stux.music) | Independent music, done right. |
+| 💡 [Stux.Digital](https://stux.digital) | Websites for businesses and creators, from idea to online. |
+| ✏️ [Stux.Design](https://stux.design) | Brand identities, logos and design, with purpose. |
+| 🎮 [Stux.Games](https://stux.games) | Games and open-source game tools, made to be played. |
 | 📺 [Ream.st](https://ream.st) | Multi-view stream viewers for [Twitch](https://twitch.multi.st) & [YouTube](https://youtube.multi.st). |
 | 🏳️‍🌈 [Gaymer.Social](https://gaymer.social) | Discontinued LGBTQ+ Mastodon instances (Sept 2026). |
 

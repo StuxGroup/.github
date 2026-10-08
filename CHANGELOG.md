@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.3.0
+
+### Added
+- Stux.Cloud, StuxAPIs, Stux.Digital, Stux.Design and Stux.Games in the **Our Brands** table of `profile/README.md`, alongside Stux.Dev, Stuxedo, Stux.Music, Ream.st and Gaymer.Social
+
 ## v1.2.0
 
 ### Added
