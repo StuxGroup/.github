@@ -26,8 +26,10 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 | 🧭 [Stux.Group Services](https://services.stux.group) | Every Stux.Group service, in one place. |
 | 🟢 [Status](https://status.stux.group) | Live status of Stux.Group's services. |
 | 📈 [GitHup](https://githup.stux.group) | Uptime monitoring & status pages, run on GitHub. |
+| 📺 [Ream.st](https://ream.st) | Multi-view stream viewers for [Twitch](https://twitch.multi.st) & [YouTube](https://youtube.multi.st). |
 | 📺 [Multi.st Twitch](https://twitch.multi.st) | Watch several Twitch streams at once, from Ream.st. |
 | 📺 [Multi.st YouTube](https://youtube.multi.st) | Watch several YouTube streams at once, from Ream.st. |
+| 🏳️‍🌈 [Gaymer.Social](https://gaymer.social) | Discontinued LGBTQ+ Mastodon instances (Sept 2026). |
 
 ### Our Brands
 
@@ -41,8 +43,6 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 | 💡 [Stux.Digital](https://stux.digital) | Websites for businesses and creators, from idea to online. |
 | ✏️ [Stux.Design](https://stux.design) | Brand identities, logos and design, with purpose. |
 | 🎮 [Stux.Games](https://stux.games) | Games and open-source game tools, made to be played. |
-| 📺 [Ream.st](https://ream.st) | Multi-view stream viewers for [Twitch](https://twitch.multi.st) & [YouTube](https://youtube.multi.st). |
-| 🏳️‍🌈 [Gaymer.Social](https://gaymer.social) | Discontinued LGBTQ+ Mastodon instances (Sept 2026). |
 
 ### Service Status
 

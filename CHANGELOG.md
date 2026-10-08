@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+## v1.3.1
+
+### Changed
+- Ream.st and Gaymer.Social moved from **Our Brands** to **Our Services** in `profile/README.md`, since they're services rather than brands. Ream.st sits just above its Multi.st Twitch and YouTube viewers; Gaymer.Social, discontinued, is last
+
 ## v1.3.0
 
 ### Added
