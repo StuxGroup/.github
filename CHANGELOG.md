@@ -2,6 +2,21 @@
 
 All notable changes to Stux.Group's `.github` organization repository are documented here.
 
+This project uses [Date Versioning](https://datevers.ing): each version is the UTC date it was
+released, as `YY.MM.DD`, with `-1`, `-2` and so on for later releases that same day. Releases up
+to v1.3.1 used Semantic Versioning.
+
+## v26.10.23
+
+### Added
+- `tests/run.sh`, a dependency-free check (`bash tests/run.sh`) that `VERSION.md` is a valid Date Version, a real calendar date, and matches the newest `## v...` heading in this changelog
+- `commit.sh` and `commit.bat` now refuse a `VERSION.md` that isn't a Date Version, isn't a real calendar date or is dated after today (UTC), and warn when it's dated before today
+
+### Changed
+- Switched from Semantic Versioning (last release v1.3.1) to [Date Versioning](https://datevers.ing): versions are now the UTC release date as `YY.MM.DD`, plus `-1`, `-2`... for later releases that day. This project follows Date Versioning from this release on
+- `README.md` has a new **Versioning** section, and its **Releasing** steps describe Date Versions and the new tests
+- `CONTRIBUTING.md` now points contributors to each repository's README for its own versioning, tests and release steps
+
 ## v1.3.1
 
 ### Changed

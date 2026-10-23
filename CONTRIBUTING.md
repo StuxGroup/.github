@@ -33,6 +33,7 @@ By participating in any Stux.Group project, you agree to uphold our community st
 - Update documentation if your change affects behaviour or usage.
 - Ensure your changes do not break existing functionality.
 - Link any related issues in your pull request description.
+- Check the repository's README for its own versioning scheme, tests and release steps (many Stux.Group projects use [Date Versioning](https://datevers.ing)), and run its tests before opening a pull request.
 
 ## Style Guidelines
 
