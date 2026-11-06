@@ -49,4 +49,4 @@ If you have any questions, feel free to reach out at [hello@stux.group](mailto:h
 
 We appreciate every contribution, no matter how small. Thank you for helping make Stux.Group better!
 
-*Stux.Group is the parent of the Stux.Group Brand of Companies, including [Stux.Cloud](https://github.com/StuxCloud), [Stuxedo](https://github.com/Stuxedo) and [StuxAPIs](https://github.com/StuxAPIs).*
+*Stux.Group is the parent of the Stux.Group Brand of Companies: [Stuxedo](https://github.com/Stuxedo), [Stux.Dev](https://github.com/StuxDev), [Stux.Cloud](https://github.com/StuxCloud), [StuxAPIs](https://github.com/StuxAPIs), [Stux.Music](https://github.com/StuxMusic), [Stux.Digital](https://github.com/StuxDigital), [Stux.Design](https://github.com/StuxDesign) and [Stux.Games](https://github.com/StuxGames).*
