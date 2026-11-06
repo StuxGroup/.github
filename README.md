@@ -48,6 +48,8 @@ was released, as `YY.MM.DD` (`26.10.22`), with `-1`, `-2` and so on for later re
 UTC day (`26.10.22-1`). `VERSION.md` holds the bare version; tags and changelog headings add a
 `v` (`v26.10.22`). Releases up to v1.3.1 used Semantic Versioning.
 
+Releases are committed and tagged on the `test` branch and go live when the pull request from `test` into `main` is merged; see [Branches](CONTRIBUTING.md#branches).
+
 ## Releasing
 
 1. Update `CHANGELOG.md` with a `## vYY.MM.DD` entry (sections in the order Added, Changed,
