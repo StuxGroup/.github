@@ -6,6 +6,11 @@ This project uses [Date Versioning](https://datevers.ing): each version is the U
 released, as `YY.MM.DD`, with `-1`, `-2` and so on for later releases that same day. Releases up
 to v1.3.1 used Semantic Versioning.
 
+## v26.11.06-1
+
+### Fixed
+- The Templates row in **Our Services** no longer calls the templates free to reuse: their licences reserve all rights
+
 ## v26.11.06
 
 ### Added

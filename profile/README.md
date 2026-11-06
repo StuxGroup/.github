@@ -29,7 +29,7 @@ Every service, brand, API and template is listed, with live status, at [services
 | 🟢 [Stux.Group Status](https://status.stux.group) | Live status of Stux.Group's websites and services. |
 | 📈 [GitHup](https://githup.stux.group) | Uptime monitoring & status pages, run on GitHub. |
 | 📅 [Date Versioning](https://datevers.ing) | Version numbers that are release dates (`YY.MM.DD`), a standard we created and maintain. |
-| 🧩 Templates | [Soonpage](https://soonpage.stux.group), [Maintenancepage](https://maintenancepage.stux.group), [Servicepage](https://servicepage.stux.group) and [GitHub Pages Redirect](https://github.com/StuxGroup/GitHubPagesRedirect), free to reuse. |
+| 🧩 Templates | [Soonpage](https://soonpage.stux.group), [Maintenancepage](https://maintenancepage.stux.group), [Servicepage](https://servicepage.stux.group) and [GitHub Pages Redirect](https://github.com/StuxGroup/GitHubPagesRedirect): the pages Stux.Group projects show while they're on the way or down for maintenance. |
 | 📺 [Ream.st](https://ream.st) | Multi-view stream viewers for [Twitch](https://twitch.multi.st) & [YouTube](https://youtube.multi.st). |
 | 📺 [Multi.st Twitch](https://twitch.multi.st) | Watch several Twitch streams at once, from Ream.st. |
 | 📺 [Multi.st YouTube](https://youtube.multi.st) | Watch several YouTube streams at once, from Ream.st. |
