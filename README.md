@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.group/logo.png" height="100" alt="Stux.Group Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/logo-dark.png"><img src="https://global.media.stux.group/logo-dark.png" height="100" alt="Stux.Group Logo"></picture>
 </p>
 
 # Stux.Group GitHub Configuration
@@ -17,7 +17,7 @@ doesn't have its own.
 
 | Path | What it does |
 | ---- | ------------ |
-| [`profile/README.md`](profile/README.md) | The organization profile: who we are, the **Our Services** and **Our Brands** tables, the **Service Status** badge and table, contact details and the **Our Activity** grid for every Stux.Group brand |
+| [`profile/README.md`](profile/README.md) | The organization profile: who we are, the **Our Services** and **Our Brands** tables (each brand with a link to its own status page), the **Service Status** badge and table, contact details and the **Our Activity** grid for every Stux.Group brand |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | The default contributing guide for StuxGroup repositories |
 | [`.github/workflows/generateMetrics.yml`](.github/workflows/generateMetrics.yml) | Builds the organization's activity metrics with [gh-metrics](https://github.com/gh-metrics/metrics) daily and on every push to `main`, and commits the SVGs to the orphan `metrics` branch |
 | [`.github/workflows/status.yml`](.github/workflows/status.yml) | Hourly, checks out [StuxGroup/Status](https://github.com/StuxGroup/Status) and runs [GitHup](https://githup.stux.group)'s `readme` mode to refresh the **Service Status** table in the profile |
@@ -57,7 +57,13 @@ UTC day (`26.10.22-1`). `VERSION.md` holds the bare version; tags and changelog 
 3. Run `bash tests/run.sh`.
 4. Run `./commit.sh` (or `commit.bat`), which refuses a version that isn't a Date Version, isn't
    a real date or is in the future (UTC), then commits and tags `vYY.MM.DD`. It doesn't push:
-   push with `git push origin main --tags`.
+   push with `git push origin test --tags`.
+
+## Branches
+
+Work happens on `test` (or a branch off it). Changes reach `main`, the branch GitHub shows on the
+organization page, only through a pull request from `test`. The release commit and tag are made
+on `test` and go live when the pull request is merged.
 
 ## Contributing
 

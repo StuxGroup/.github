@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.group/logo.png" height="100" alt="Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/logo-dark.png"><img src="https://global.media.stux.group/logo-dark.png" height="100" alt="Stux.Group Logo"></picture>
 </p>
 
 ## Welcome to the Stux.Group Official GitHub!
@@ -20,12 +20,16 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 
 ### Our Services
 
+Every service, brand, API and template is listed, with live status, at [services.stux.group](https://services.stux.group).
+
 | Service | What it is |
 |---|---|
 | 🌐 [Stux.Group](https://stux.group) | Our main website. |
-| 🧭 [Stux.Group Services](https://services.stux.group) | Every Stux.Group service, in one place. |
-| 🟢 [Status](https://status.stux.group) | Live status of Stux.Group's services. |
+| 🧭 [Stux.Group Services](https://services.stux.group) | Every Stux.Group brand, service, API and template, in one place. |
+| 🟢 [Stux.Group Status](https://status.stux.group) | Live status of Stux.Group's websites and services. |
 | 📈 [GitHup](https://githup.stux.group) | Uptime monitoring & status pages, run on GitHub. |
+| 📅 [Date Versioning](https://datevers.ing) | Version numbers that are release dates (`YY.MM.DD`), a standard we created and maintain. |
+| 🧩 Templates | [Soonpage](https://soonpage.stux.group), [Maintenancepage](https://maintenancepage.stux.group), [Servicepage](https://servicepage.stux.group) and [GitHub Pages Redirect](https://github.com/StuxGroup/GitHubPagesRedirect), free to reuse. |
 | 📺 [Ream.st](https://ream.st) | Multi-view stream viewers for [Twitch](https://twitch.multi.st) & [YouTube](https://youtube.multi.st). |
 | 📺 [Multi.st Twitch](https://twitch.multi.st) | Watch several Twitch streams at once, from Ream.st. |
 | 📺 [Multi.st YouTube](https://youtube.multi.st) | Watch several YouTube streams at once, from Ream.st. |
@@ -33,22 +37,22 @@ Stux.Group aims to innovate and create lasting solutions for our clients. Join u
 
 ### Our Brands
 
-| Brand | What it is |
-|---|---|
-| 🛠️ [Stux.Dev](https://stux.dev) | The tools we wished existed. |
-| ☁️ [Stuxedo](https://stuxedo.com) | Hosting & cloud, the greener option. |
-| 🏗️ [Stux.Cloud](https://stux.cloud) | The infrastructure underneath it all, quietly & securely. |
-| 🔌 [StuxAPIs](https://stuxapis.net) | The APIs and libraries powering the Stux.Group ecosystem. |
-| 🎵 [Stux.Music](https://stux.music) | Independent music, done right. |
-| 💡 [Stux.Digital](https://stux.digital) | Websites for businesses and creators, from idea to online. |
-| ✏️ [Stux.Design](https://stux.design) | Brand identities, logos and design, with purpose. |
-| 🎮 [Stux.Games](https://stux.games) | Games and open-source game tools, made to be played. |
+| Brand | What it is | Status |
+|---|---|---|
+| ☁️ [Stuxedo](https://stuxedo.com) | Hosting & cloud, the greener option. | [status.stuxedo.com](https://status.stuxedo.com) |
+| 🛠️ [Stux.Dev](https://stux.dev) | The tools we wished existed. | [status.stux.dev](https://status.stux.dev) |
+| 🏗️ [Stux.Cloud](https://stux.cloud) | The infrastructure underneath it all, quietly & securely. | [status.stux.cloud](https://status.stux.cloud) |
+| 🔌 [StuxAPIs](https://stuxapis.net) | The APIs and libraries powering the Stux.Group ecosystem. | [status.stuxapis.net](https://status.stuxapis.net) |
+| 🎵 [Stux.Music](https://stux.music) | Independent music, done right. | [status.stux.music](https://status.stux.music) |
+| 💡 [Stux.Digital](https://stux.digital) | Websites for businesses and creators, from idea to online. | [status.stux.digital](https://status.stux.digital) |
+| ✏️ [Stux.Design](https://stux.design) | Brand identities, logos and design, with purpose. | [status.stux.design](https://status.stux.design) |
+| 🎮 [Stux.Games](https://stux.games) | Games and open-source game tools, made to be played. | [status.stux.games](https://status.stux.games) |
 
 ### Service Status
 
 [![Stux.Group status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxGroup%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stux.group)
 
-See [status.stux.group](https://status.stux.group) for every service's live status and uptime history. The table below is refreshed hourly by [GitHup](https://githup.stux.group).
+See [Stux.Group Status](https://status.stux.group) for live status and uptime history; each brand has its own status page too (see **Our Brands**). The table below is refreshed hourly by [GitHup](https://githup.stux.group).
 
 <!-- githup:start -->
 <!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
@@ -83,87 +87,121 @@ For legal, privacy, or copyright matters, contact [legal@stux.group](mailto:lega
     <td align="center" width="50%">
       <div align="center">
         <a href="https://github.com/StuxGroup">
-          <img src="https://global.media.stux.group/icon.png" width="80"><br>
+          <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/icon-dark.png"><img src="https://global.media.stux.group/icon-dark.png" width="80" alt="Stux.Group icon"></picture><br>
           <b>Stux.Group</b>
         </a><br>
         <sub>Innovating Today, Building Tomorrow</sub><br><br>
-        <img width="480" src="https://raw.githubusercontent.com/StuxGroup/.github/metrics/stats.svg">
+        <img width="480" src="https://raw.githubusercontent.com/StuxGroup/.github/metrics/stats.svg" alt="Stux.Group GitHub activity">
       </div>
     </td>
     <td align="center" width="50%">
       <div align="center">
-        <a href="https://github.com/StuxDev">
-          <img src="https://global.media.stux.dev/icon.png" width="80"><br>
-          <b>Stux.Dev</b>
-        </a><br>
-        <sub>We build the tools we wished existed.</sub><br><br>
-        <img width="480" src="https://raw.githubusercontent.com/StuxDev/.github/metrics/stats.svg">
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <div align="center">
-        <a href="https://github.com/StuxAPIs">
-          <img src="https://global.media.stuxapis.net/icon.png" width="80"><br>
-          <b>StuxAPIs</b>
-        </a><br>
-        <sub>Powering the Stux.Group Ecosystem</sub><br><br>
-        <img width="480" src="https://raw.githubusercontent.com/StuxAPIs/.github/metrics/stats.svg">
-      </div>
-    </td>
-    <td align="center">
-      <div align="center">
         <a href="https://github.com/Stuxedo">
-          <img src="https://global.media.stuxedo.com/icon.png" width="80"><br>
+          <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stuxedo.com/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stuxedo.com/icon-dark.png"><img src="https://global.media.stuxedo.com/icon-dark.png" width="80" alt="Stuxedo icon"></picture><br>
           <b>Stuxedo</b>
         </a><br>
         <sub>The Smarter, Greener Option</sub><br><br>
-        <img width="480" src="https://raw.githubusercontent.com/Stuxedo/.github/metrics/stats.svg">
+        <img width="480" src="https://raw.githubusercontent.com/Stuxedo/.github/metrics/stats.svg" alt="Stuxedo GitHub activity">
       </div>
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" width="50%">
+      <div align="center">
+        <a href="https://github.com/StuxDev">
+          <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.dev/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.dev/icon-dark.png"><img src="https://global.media.stux.dev/icon-dark.png" width="80" alt="Stux.Dev icon"></picture><br>
+          <b>Stux.Dev</b>
+        </a><br>
+        <sub>We build the tools we wished existed.</sub><br><br>
+        <img width="480" src="https://raw.githubusercontent.com/StuxDev/.github/metrics/stats.svg" alt="Stux.Dev GitHub activity">
+      </div>
+    </td>
+    <td align="center" width="50%">
       <div align="center">
         <a href="https://github.com/StuxCloud">
-          <img src="https://global.media.stux.cloud/icon.png" width="80"><br>
+          <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.cloud/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.cloud/icon-dark.png"><img src="https://global.media.stux.cloud/icon-dark.png" width="80" alt="Stux.Cloud icon"></picture><br>
           <b>Stux.Cloud</b>
         </a><br>
         <sub>Powering everything, quietly &amp; securely!</sub><br><br>
-        <img width="480" src="https://raw.githubusercontent.com/StuxCloud/.github/metrics/stats.svg">
-      </div>
-    </td>
-    <td align="center">
-      <div align="center">
-        <a href="https://github.com/StuxMusic">
-          <img src="https://global.media.stux.music/icon.png" width="80"><br>
-          <b>Stux.Music</b>
-        </a><br>
-        <sub>Independent Music, Done Right!</sub><br><br>
-        <img width="480" src="https://raw.githubusercontent.com/StuxMusic/.github/metrics/stats.svg">
+        <img width="480" src="https://raw.githubusercontent.com/StuxCloud/.github/metrics/stats.svg" alt="Stux.Cloud GitHub activity">
       </div>
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" width="50%">
+      <div align="center">
+        <a href="https://github.com/StuxAPIs">
+          <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stuxapis.net/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stuxapis.net/icon-dark.png"><img src="https://global.media.stuxapis.net/icon-dark.png" width="80" alt="StuxAPIs icon"></picture><br>
+          <b>StuxAPIs</b>
+        </a><br>
+        <sub>Powering the Stux.Group Ecosystem</sub><br><br>
+        <img width="480" src="https://raw.githubusercontent.com/StuxAPIs/.github/metrics/stats.svg" alt="StuxAPIs GitHub activity">
+      </div>
+    </td>
+    <td align="center" width="50%">
+      <div align="center">
+        <a href="https://github.com/StuxMusic">
+          <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.music/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.music/icon-dark.png"><img src="https://global.media.stux.music/icon-dark.png" width="80" alt="Stux.Music icon"></picture><br>
+          <b>Stux.Music</b>
+        </a><br>
+        <sub>Independent Music, Done Right!</sub><br><br>
+        <img width="480" src="https://raw.githubusercontent.com/StuxMusic/.github/metrics/stats.svg" alt="Stux.Music GitHub activity">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <div align="center">
+        <a href="https://github.com/StuxDigital">
+          <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.digital/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.digital/icon-dark.png"><img src="https://global.media.stux.digital/icon-dark.png" width="80" alt="Stux.Digital icon"></picture><br>
+          <b>Stux.Digital</b>
+        </a><br>
+        <sub>From idea to online.</sub><br><br>
+        <img width="480" src="https://raw.githubusercontent.com/StuxDigital/.github/metrics/stats.svg" alt="Stux.Digital GitHub activity">
+      </div>
+    </td>
+    <td align="center" width="50%">
+      <div align="center">
+        <a href="https://github.com/StuxDesign">
+          <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.design/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.design/icon-dark.png"><img src="https://global.media.stux.design/icon-dark.png" width="80" alt="Stux.Design icon"></picture><br>
+          <b>Stux.Design</b>
+        </a><br>
+        <sub>Designed with purpose.</sub><br><br>
+        <img width="480" src="https://raw.githubusercontent.com/StuxDesign/.github/metrics/stats.svg" alt="Stux.Design GitHub activity">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <div align="center">
+        <a href="https://github.com/StuxGames">
+          <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.games/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.games/icon-dark.png"><img src="https://global.media.stux.games/icon-dark.png" width="80" alt="Stux.Games icon"></picture><br>
+          <b>Stux.Games</b>
+        </a><br>
+        <sub>Made to be played.</sub><br><br>
+        <img width="480" src="https://raw.githubusercontent.com/StuxGames/.github/metrics/stats.svg" alt="Stux.Games GitHub activity">
+      </div>
+    </td>
+    <td align="center" width="50%">
       <div align="center">
         <a href="https://github.com/Ream-st">
-          <img src="https://global.media.ream.st/icon.png" width="80"><br>
+          <img src="https://global.media.ream.st/icon.png" width="80" alt="Ream.st icon"><br>
           <b>Ream.st</b>
         </a><br>
         <sub>One Viewer, One Provider, Multiple Streams!</sub><br><br>
-        <img width="480" src="https://raw.githubusercontent.com/Ream-st/.github/metrics/stats.svg">
+        <img width="480" src="https://raw.githubusercontent.com/Ream-st/.github/metrics/stats.svg" alt="Ream.st GitHub activity">
       </div>
     </td>
-    <td align="center">
+  </tr>
+  <tr>
+    <td align="center" width="50%">
       <div align="center">
         <a href="https://github.com/GaymerSocial">
-          <img src="https://global.media.gaymer.social/icon.png" width="80"><br>
+          <img src="https://global.media.gaymer.social/icon.png" width="80" alt="Gaymer.Social icon"><br>
           <b>Gaymer.Social</b>
         </a><br>
         <sub>Discontinued September 2026</sub><br><br>
-        <img width="480" src="https://raw.githubusercontent.com/GaymerSocial/.github/metrics/stats.svg">
+        <img width="480" src="https://raw.githubusercontent.com/GaymerSocial/.github/metrics/stats.svg" alt="Gaymer.Social GitHub activity">
       </div>
     </td>
   </tr>

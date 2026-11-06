@@ -6,6 +6,21 @@ This project uses [Date Versioning](https://datevers.ing): each version is the U
 released, as `YY.MM.DD`, with `-1`, `-2` and so on for later releases that same day. Releases up
 to v1.3.1 used Semantic Versioning.
 
+## v26.11.06
+
+### Added
+- **Our Brands** in `profile/README.md` has a Status column linking each brand's own status page, including the new Stux.Cloud Status and Stuxedo Status (status.stuxedo.com)
+- **Our Services** lists Date Versioning (datevers.ing) and the reusable templates (Soonpage, Maintenancepage, Servicepage and GitHub Pages Redirect), and links services.stux.group as the full list
+- **Our Activity** shows Stux.Digital, Stux.Design and Stux.Games alongside the other brands
+- A **Branches** section in `README.md`: work happens on `test`, and reaches `main` through a pull request
+
+### Changed
+- The profile's and `README.md`'s logo is the light/dark `<picture>` pair, so it reads in both GitHub themes; the brand icons in **Our Activity** do the same, and every image has alt text
+- **Our Brands** and **Our Activity** follow the Stux.Group website's brand order (Stuxedo, Stux.Dev, Stux.Cloud, StuxAPIs, Stux.Music, Stux.Digital, Stux.Design, Stux.Games), then Ream.st and Gaymer.Social
+- The status page is listed by its full name, **Stux.Group Status**
+- `commit.sh` and `commit.bat` suggest pushing to `test`, not `main`
+- `CONTRIBUTING.md`'s footer names every Stux.Group brand
+
 ## v26.10.23
 
 ### Added
