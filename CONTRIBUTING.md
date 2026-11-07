@@ -41,6 +41,12 @@ By participating in any Stux.Group project, you agree to uphold our community st
 - Keep code clean, readable, and well-structured.
 - Avoid introducing unnecessary dependencies.
 
+## Branches
+
+- Work on `test`, or on a feature branch off it. Never push to `main`
+- Changes reach `main` only through a pull request from `test` into `main`, which needs CI to pass and is reviewed and merged by Leo
+- Merging into `main` updates the organization profile and the default community files; release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
+
 ## Questions
 
 If you have any questions, feel free to reach out at [hello@stux.group](mailto:hello@stux.group) or open a discussion in the relevant repository. For legal, privacy, or copyright inquiries, contact [legal@stux.group](mailto:legal@stux.group) instead.
