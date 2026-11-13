@@ -6,6 +6,13 @@ This project uses [Date Versioning](https://datevers.ing): each version is the U
 released, as `YY.MM.DD`, with `-1`, `-2` and so on for later releases that same day. Releases up
 to v1.3.1 used Semantic Versioning.
 
+## v26.11.13-1
+
+### Fixed
+
+- The registered office ends "England, United Kingdom": 124 City Road, London, EC1V 2NX, England,
+  United Kingdom
+
 ## v26.11.13
 
 ### Changed
