@@ -48,7 +48,7 @@ was released, as `YY.MM.DD` (`26.10.22`), with `-1`, `-2` and so on for later re
 UTC day (`26.10.22-1`). `VERSION.md` holds the bare version; tags and changelog headings add a
 `v` (`v26.10.22`). Releases up to v1.3.1 used Semantic Versioning.
 
-Releases are committed and tagged on the `test` branch and go live when the pull request from `test` into `main` is merged; see [Branches](CONTRIBUTING.md#branches).
+Releases are committed and tagged on the `test` branch and go live through pull requests from `test` into `staging`, then from `staging` into `main`; see [Branches and going live](CONTRIBUTING.md#branches-and-going-live).
 
 ## Releasing
 
@@ -64,7 +64,7 @@ Releases are committed and tagged on the `test` branch and go live when the pull
 ## Branches
 
 Work happens on `test` (or a branch off it). Changes reach `main`, the branch GitHub shows on the
-organization page, only through a pull request from `test`. The release commit and tag are made
+organization page, only through a pull request from `staging`, and `staging` only through one from `test`. The release commit and tag are made
 on `test` and go live when the pull request is merged.
 
 ## Contributing
